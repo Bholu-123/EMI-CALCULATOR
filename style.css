@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    color: #272829;
+    font-weight: 400;
+    background-color: #343a40;
+}
+
+.card {
+    background-color: #fff;
+    margin: auto;
+    margin-top: 5rem;
+    width: 50rem;
+    display: flex;
+    flex-direction: column;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+    padding: 1.75rem;
+}
+
+h1,h5{
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 500;
+    color: #212529;
+    font-size: 4rem;
+    text-align: center;
+}
+
+h5{
+    font-size: 2.5rem;
+}
+
+.input-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.input-group .input-icon{
+    display: inline-block;
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem
+
+}
+
+.input-group .input-place{
+    border: none;
+    outline: none;
+    padding: .5rem .75rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 100%;
+    margin-left: -.2rem;
+    
+}
+
+.input-group .input-submit{
+    background-color: #212529;
+    color: white;
+}
+
+.output-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    
+}
+
+.output-group .output-details{
+    flex-basis: 45%;
+    padding: .5rem .75rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem
+}
+
+.output-group .output-place{
+    flex-basis: 1;
+    border: none;
+    outline: none;
+    padding: .5rem .75rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    width: 100%;
+    margin-left: -.2rem;
+}
+/* intially both loader and result display should be none */
+#loading{
+    margin: auto;
+    display: none;
+}
+#results{
+    display: none;
+}
+
+.error{
+    text-align: center;
+    background-color: #e27360;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
